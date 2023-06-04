@@ -1,27 +1,21 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a simple Ruby on rails application for jokes, number facts and cat pics.
 
-Things you may want to cover:
+ Dependencies: 
+- Ruby 3.1
+- Node.js
 
-* Ruby version
+Install dependencies:
+```bash
+bundle install
+npm install
+```
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Run the web server from IDE or from terminal with
+```bash
+rails s
+```
 
 # Guranya_project
 
