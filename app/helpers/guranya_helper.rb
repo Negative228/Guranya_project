@@ -1,0 +1,2 @@
+module GuranyaHelper
+end
