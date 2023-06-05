@@ -35,6 +35,7 @@ class GuranyaController < ApplicationController
 
 
   def main
+    @breeds = Breed.all
   end
 
 
