@@ -11,6 +11,7 @@ module GuranyaHelper
     end
 
     def valid_cat?(cat)
+        cat = cat.capitalize() unless cat.nil?
         cat.in?([
             "Abyssinian",
             "Aegean",
