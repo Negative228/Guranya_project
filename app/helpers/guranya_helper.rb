@@ -5,7 +5,9 @@ module GuranyaHelper
     end
 
     def valid_num?(num)
-        num.scan(/\D/).empty?
+        if num != nil
+            num.scan(/\D/).empty?
+        end
     end
 
     def valid_cat?(cat)

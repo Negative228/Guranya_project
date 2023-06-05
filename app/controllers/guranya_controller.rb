@@ -23,7 +23,9 @@ class GuranyaController < ApplicationController
 
   def cat_breed
     breed = params["name"]
-    breed = breed.capitalize()
+    if breed != nil
+      breed = breed.capitalize()
+    end
     if (valid_cat?(breed))
       cat = HTTParty.get("https://api.api-ninjas.com/v1/cats?name=#{breed}",
         headers: {'X-Api-Key': 'wCwPBOjfVh4Sd6+wk5qlag==iTrhbDSMz9f3ppXh'})
